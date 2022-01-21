@@ -265,6 +265,19 @@ p {
     text-align: justify;
 }
 
+/* EDICIONES LIMITADAS ESTILOS */
+
+.hoku {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-right: 45px;
+    
+}
+
+.textohoku {
+    text-align:
+}
 .formulario {
     
     display: flex;
