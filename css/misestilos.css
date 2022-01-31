@@ -17,7 +17,7 @@ h1 {
     text-decoration: none;
     padding-left: 10px;
     padding-top: 20px;
-}   
+}
 
 h2 {
     font-family: 'Julius Sans One', sans-serif;
@@ -26,12 +26,12 @@ h2 {
     margin-top: 30px;
     padding: 20px;
     text-align: center;
-}  
+}
 
 h3 {
     font-family: 'Julius Sans One', sans-serif;
     padding: 10px 30px;
-    
+
 }
 
 
@@ -42,7 +42,7 @@ p {
     font-size: 25px;
     padding: 10px 30px;
     text-align: justify;
-}  
+}
 
 
 
@@ -51,13 +51,13 @@ p {
 
 
 
-  
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     height: 130px;
-   
+
     background-color: rgb(56, 17, 73);
 }
 /* navegador */
@@ -67,20 +67,20 @@ p {
     list-style: none;
     padding-right: 30px;
     font-family: 'Julius Sans One', sans-serif;
-    
-  
-    
+
+
+
 }
 
 .nav li{
     margin: 0 10px;
-    
+
 }
 
 .nav li:hover {
  background-color: rgb(248, 247, 244);
  box-shadow: 5px 5px rgb(228, 17, 17);
- 
+
 }
 
 .nav ul li a{
@@ -95,8 +95,8 @@ p {
 
 .padre1 {
     display: flex;
-    
-    
+
+
 }
 
 .padre2 {
@@ -107,13 +107,13 @@ p {
 }
 
 .padre3 {
-  display:flex;  
+  display:flex;
   text-align: center;
   flex-direction: column;
   align-items: center;
 }
 
-.video { 
+.video {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -160,8 +160,8 @@ p {
  background-color: rgb(226, 11, 11);
  padding-top: 20px;
 
- 
- 
+
+
 }
 
 
@@ -193,15 +193,15 @@ p {
     grid-template-rows: 1fr;
     grid-template-columns: 100vw;
     grid-row-gap: 60px;
-   grid-template-areas: 
+   grid-template-areas:
    "nuestroslibros nuestroslibros"
    "section1 section1"
    "section2 section2"
    "section3 section3"
    ;
 
-    
-  
+
+
 }
 .nuestroslibros {
     display: grid;
@@ -233,20 +233,20 @@ p {
     display: flex;
 
     }
-    
+
 .texto1 {
     padding: 20px;
     display: inline-block;
     text-align: justify;
 }
 /* rusia */
-    
+
 .section2 {
     grid-area: section2;
     background-color: coral;
     padding:  0px;
     display: flex;
-   
+
 }
 .texto2  {
     padding: 20px;
@@ -272,14 +272,14 @@ p {
     flex-direction: row;
     padding-top: 30px;
     padding-right: 45px;
-    
+
 }
 
 .textohoku {
-    
+
 }
 .formulario {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,6 +296,12 @@ p {
 .mail {
     padding-bottom: 30px;
 }
+
+
+
+
+
+
 /* MEDIA QUERIS */
 /* PANTALLA MEDIANA */
 /* INDEX */
@@ -310,8 +316,9 @@ p {
     }
     .header {
         width: 100vw;
-        
+
     }
+    /* MEDIA QUERIS INDEX */
     .padre1 {
         display: block;
         justify-content: center;
@@ -326,7 +333,7 @@ p {
         padding-right: 7px;
 
     }
-    
+
    .hijo2 img {
     width: 250px;
     height: 350px;
@@ -338,6 +345,15 @@ p {
     height: 350px;
     padding-right: 7px;
    }
+/* MEDIA QUERIS EDICIONES LIMITADAS */
+.szukal {
+    display:flex;
+    flex-direction: row-reverse;
+    padding-top: 25px;
+    
+}
+
+
 
 }
 /* MEDIA QUERIS PANTALLA CELL CHICA */
@@ -359,14 +375,14 @@ p {
        .padre1{
            display: block;
            justify-items: center;
-           
+
        }
        .hijo img {
            display: none;
        }
       .padre2{
           display: block;
-          
+
         }
         .padre2 .hijo1{
             justify-items: center;
@@ -392,7 +408,7 @@ p {
          .suscribite form {
              justify-content: center;
          }
- 
+
         .suscribite div {
             display: none;
         }
@@ -405,7 +421,7 @@ p {
         }
 
         .szukal img{
-            
+
             width: 320px;
             height: 300px;
 
@@ -415,17 +431,17 @@ p {
         }
 
     }
-   
-
-
-
-   
-    
 
 
 
 
 
-    
+
+
+
+
+
+
+
 
 
