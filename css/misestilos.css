@@ -177,16 +177,17 @@ p {
     justify-content: space-between;
     padding-top: 20px;
     font-weight: bold;
+    
 }
 
+/* CSS THE ART BOX TARJETA */
 
 
 
 
 
 
-
-/* css de productos */
+/* CSS PRODUCTOS  */
 
 .grilla {
     display: grid;
@@ -280,7 +281,8 @@ p {
 }
 .formulario {
 
-    display: flex;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
